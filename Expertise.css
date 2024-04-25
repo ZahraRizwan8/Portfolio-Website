@@ -1,0 +1,89 @@
+header {
+    background-color: rgb(32,32,32);
+    text-align: right; 
+    padding: 30px;
+}
+
+.h1{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    color:white;
+}
+
+body {
+    background-image: url('C:/Users/Zahra/Pictures/expertise2.jpg');
+    background-size: 100% 1400%; /* Change 'cover' to 'contain' */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 50px auto 0;
+   
+} 
+
+td {
+    color:white;
+    padding: 40px;
+    border: 6px solid black; 
+   
+}
+
+
+nav i.fa {
+    color:hsl(147, 90%, 47%);
+    position: absolute; 
+    top: 0; 
+    left: 30px; 
+    padding: 20px; 
+    font-size: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; 
+    margin-right: 40px; 
+    font-size: 20px;
+}
+
+
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    .h1 {
+        margin-top: 100px;
+    }
+
+    td {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    body {
+        background-size: 100% 200%; 
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Styles for laptop screens */
+@media (min-width: 769px) {
+    .h1 {
+        margin-top: 150px;
+    }
+
+    td {
+        padding: 40px;
+        font-size: 18px;
+    }
+}
